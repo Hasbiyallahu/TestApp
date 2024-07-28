@@ -1,0 +1,1016 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1em 3em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav #fl {
+    list-style: none;
+    font-weight: 700;
+    color: white;
+}
+
+nav #sl {
+    list-style: none;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+nav #sl a {
+    text-decoration: none;
+    color: white;
+    padding: 0em 0.5em;
+}
+
+#first {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+#first img {
+    width: 10%;
+    height: 10%;
+}
+
+#first ul {
+    display: flex;
+    list-style: none;
+    margin-top: 1.5em;
+}
+
+#first ul a {
+    text-decoration: none;
+    padding: 0em 0.3em;
+    color: black;
+    font-size: small;
+}
+
+#first ul a:hover {
+    color: red;
+}
+
+#vento {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#vento h1 {
+    width: 80%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 0.5em 1em;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#jabi {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#jabi .jabi {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#jabi .jabi .lakemall {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 5em;
+}
+
+#jabi .jabi .lakemall table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#jabi .jabi .lakemall h5 {
+    opacity: 0.5;
+}
+
+#jabi .jabi .lakemall h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#jabi .jabi .lakemall button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#jabi .jabi .lakeimg {
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+#jabi .jabi .lakeimg img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vjabi 4s ease-in-out infinite;
+}
+
+@keyframes Vjabi {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#wuse {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#wuse .wuse {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wuse .wuse .kokkies {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+#wuse .wuse .kokkies table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#wuse .wuse .kokkies h5 {
+    opacity: 0.5;
+}
+
+#wuse .wuse .kokkies h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#wuse .wuse .kokkies button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#wuse .wuse .koke {
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: 4em;
+}
+
+#wuse .wuse .koke img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vwuse 4s ease-in-out infinite;
+}
+
+@keyframes Vwuse {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#ikeja {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#ikeja .ikeja {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#ikeja .ikeja .allen {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 5em;
+}
+
+#ikeja .ikeja .allen table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#ikeja .ikeja .allen h5 {
+    opacity: 0.5;
+}
+
+#ikeja .ikeja .allen h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#ikeja .ikeja .allen button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ikeja .ikeja .avenue {
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+#ikeja .ikeja .avenue img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vikeja 4s ease-in-out infinite;
+}
+
+@keyframes Vikeja {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#ikoyi {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#ikoyi .ikoyi {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ikoyi .ikoyi .glover {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+#ikoyi .ikoyi .glover table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#ikoyi .ikoyi .glover h5 {
+    opacity: 0.5;
+}
+
+#ikoyi .ikoyi .glover h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#ikoyi .ikoyi .glover button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ikoyi .ikoyi .glove {
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: 4em;
+}
+
+#ikoyi .ikoyi .glove img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vikoyi 4s ease-in-out infinite;
+}
+
+@keyframes Vikoyi {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#festac {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#festac .festac {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#festac .festac .festival {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 5em;
+}
+
+#festac .festac .festival table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#festac .festac .festival h5 {
+    opacity: 0.5;
+}
+
+#festac .festac .festival h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#festac .festac .festival button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#festac .festac .fest {
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+#festac .festac .fest img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vfestac 4s ease-in-out infinite;
+}
+
+@keyframes Vfestac {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#lekki {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#lekki .lekki {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lekki .lekki .admiralty {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+#lekki .lekki .admiralty table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#lekki .lekki .admiralty h5 {
+    opacity: 0.5;
+}
+
+#lekki .lekki .admiralty h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#lekki .lekki .admiralty button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lekki .lekki .phase {
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: 4em;
+}
+
+#lekki .lekki .phase img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vlekki 4s ease-in-out infinite;
+}
+
+@keyframes Vlekki {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#azikwe {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#azikwe .azikwe {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#azikwe .azikwe .port {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 5em;
+}
+
+#azikwe .azikwe .port table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#azikwe .azikwe .port h5 {
+    opacity: 0.5;
+}
+
+#azikwe .azikwe .port h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#azikwe .azikwe .port button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#azikwe .azikwe .porthacourt {
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+#azikwe .azikwe .porthacourt img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vazikiwe 4s ease-in-out infinite;
+}
+
+@keyframes Vazikiwe {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#odili {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#odili .odili {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#odili .odili .ph {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+#odili .odili .ph table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#odili .odili .ph h5 {
+    opacity: 0.5;
+}
+
+#odili .odili .ph h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#odili .odili .ph button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#odili .odili .odiph {
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: 4em;
+}
+
+#odili .odili .odiph img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vodili 4s ease-in-out infinite;
+}
+
+@keyframes Vodili {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#kaduna {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+#kaduna .kaduna {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#kaduna .kaduna .galaxy {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 5em;
+}
+
+#kaduna .kaduna .galaxy table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#kaduna .kaduna .galaxy h5 {
+    opacity: 0.5;
+}
+
+#kaduna .kaduna .galaxy h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#kaduna .kaduna .galaxy button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#kaduna .kaduna .kad {
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+#kaduna .kaduna .kad img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vkaduna 4s ease-in-out infinite;
+}
+
+@keyframes Vkaduna {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+#canada {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#canada .canada {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#canada .canada .walker {
+    width: 40%;
+    height: 40vh;
+    padding: 2em;
+    margin-left: 3em;
+}
+
+#canada .canada .walker table {
+    width: 120%;
+    height: 30vh;
+    margin-top: 0.5em;
+}
+
+#canada .canada .walker h5 {
+    opacity: 0.5;
+}
+
+#canada .canada .walker h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0.5em 0em;
+}
+
+#canada .canada .walker button {
+    padding: 1em 2em;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#canada .canada .wind {
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: 4em;
+}
+
+#canada .canada .wind img {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    animation: Vcanada 4s ease-in-out infinite;
+}
+
+@keyframes Vcanada {
+    0% {
+        margin-top: 0em;
+    }
+
+    25% {
+        margin-top: 1em;
+    }
+
+    50% {
+        margin-top: 2em;
+    }
+
+    75% {
+        margin-top: 1em;
+    }
+
+    100% {
+        margin-top: 0em;
+    }
+}
+
+
+
+#newsletter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6em;
+}
+
+#newsletter h4 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#newsletter #email {
+    padding: 0.5em 1em;
+    width: 40%;
+    margin-bottom: 0.5em;
+}
+
+#newsletter #btn {
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    margin-left: 1em;
+}
+
+
+footer {
+    background-color: whitesmoke;
+    margin-top: 4em;
+    padding-top: 2em;
+}
+
+footer #locations {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer #locations ul li {
+    list-style: none;
+}
+
+#locations #locate {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#locations #locate div {
+    width: 50%;
+}
+
+#locations #locate .customer {
+    width: 50%;
+    text-align: center;
+    margin-right: 3em;
+    margin-top: 5em;
+}
+
+#locations #locate .customer ul {
+    display: flex;
+}
+
+#locations #locate .customer ul li:nth-child(4) {
+    margin-left: -3em;
+}
+
+#locations #locate .abuja {
+    width: 70%;
+}
+
+#locations #locate .lagos {
+    width: 60%;
+}
+
+#locations #locate .porthacourt {
+    width: 150%;
+    margin-left: -5em;
+}
+
+#locations #locate li {
+    margin-bottom: 1em;
+}
+
+footer #canada {
+    width: 12%;
+    margin-left: 12em;
+    margin-bottom: 2em;
+}
+
+footer #canada ul {
+    list-style: none;
+}
+
+footer #copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer #copyright div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+
+footer #copyright div ul {
+    list-style: none;
+}

@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.google-container {
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.google-body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.google-body {
+}
+
+.google-input {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+.google-input input {
+  height: 60px;
+  width: 600px;
+  outline: none;
+  border-radius: 30px;
+  border: 3px solid black;
+  position: absolute;
+}
+
+.googleinput-overlay {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 600px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 20 10 10px 10px;
+  align-items: center;
+}
+
+.google-button {
+}
+
+.google-button button {
+  height: 40px;
+  width: 120px;
+  border: none;
+  background-color: #f8f9fa;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  text-transform: capitalize;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    .google-input input {
+        height: 50px;
+        width: 300px;
+        outline: none;
+        border-radius: 30px;
+        border: 3px solid whitesmoke;
+        position: absolute;
+      }
+
+      .google-body img{
+        height: 60px;
+        width: 100%;
+        object-fit: contain;
+      }
+
+      .google-links{
+        text-align: center;
+      }
+
+      footer {
+        background-color: #f2f2f2;
+        width: 100%;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+      }
+
+      .text{
+        display: none;
+      }
+
+      .footer-items {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        font-size: 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px;
+      }
+}

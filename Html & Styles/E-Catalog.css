@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1em 3em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav #fl {
+    list-style: none;
+    font-weight: 700;
+    color: white;
+}
+
+nav #sl {
+    list-style: none;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+nav #sl a {
+    text-decoration: none;
+    color: white;
+    padding: 0em 0.5em;
+}
+
+#first {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+#first img {
+    width: 10%;
+    height: 10%;
+}
+
+#first ul {
+    display: flex;
+    list-style: none;
+    margin-top: 1.5em;
+}
+
+#first ul a {
+    text-decoration: none;
+    padding: 0em 0.3em;
+    color: black;
+    font-size: small;
+}
+
+#first ul a:hover {
+    color: red;
+}
+
+#catalog {
+    width: 99%;
+    text-align: center;
+    background: url(../Images/Dream-Bedroom-Set-860x538.webp);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#catalog ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#catalog ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#catalog ul a:active {
+    color: red;
+}
+
+#catalog h1 {
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+}
+
+#paragraph {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#paragraph p {
+    width: 85%;
+    text-align: center;
+    padding: 1em 1em;
+    background-color: whitesmoke;
+    opacity: 0.7;
+}
+
+#books {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#books .book {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#books .book h1 {
+    font-weight: 700;
+}
+
+#newsletter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4em;
+}
+
+#newsletter h4 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#newsletter #email {
+    padding: 0.5em 1em;
+    width: 40%;
+    margin-bottom: 0.5em;
+}
+
+#newsletter #btn {
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    margin-left: 1em;
+}
+
+
+footer {
+    background-color: whitesmoke;
+    margin-top: 4em;
+    padding-top: 2em;
+}
+
+footer #locations {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer #locations ul li {
+    list-style: none;
+}
+
+#locations #locate {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#locations #locate div {
+    width: 50%;
+}
+
+#locations #locate .customer {
+    width: 50%;
+    text-align: center;
+    margin-right: 3em;
+    margin-top: 5em;
+}
+
+#locations #locate .customer ul {
+    display: flex;
+}
+
+#locations #locate .customer ul li:nth-child(4) {
+    margin-left: -3em;
+}
+
+#locations #locate .abuja {
+    width: 70%;
+}
+
+#locations #locate .lagos {
+    width: 60%;
+}
+
+#locations #locate .porthacourt {
+    width: 150%;
+    margin-left: -5em;
+}
+
+#locations #locate li {
+    margin-bottom: 1em;
+}
+
+footer #canada {
+    width: 12%;
+    margin-left: 12em;
+    margin-bottom: 2em;
+}
+
+footer #canada ul {
+    list-style: none;
+}
+
+footer #copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer #copyright div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+
+footer #copyright div ul {
+    list-style: none;
+}

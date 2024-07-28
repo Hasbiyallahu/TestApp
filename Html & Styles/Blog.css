@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#first {
+    width: 99%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+#first img {
+    width: 10%;
+    height: 10%;
+}
+
+#first ul {
+    display: flex;
+    list-style: none;
+    margin-top: 1.5em;
+}
+
+#first ul a {
+    text-decoration: none;
+    padding: 0em 0.3em;
+    color: black;
+    font-size: small;
+}
+
+#first ul a:hover {
+    color: red;
+}
+
+#bigframe {
+    width: 99%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10em;
+    padding-top: 3em;
+    color: white;
+    border: 1px solid;
+    background-color: white;
+    background: url(../Images/Mimoza-Bedroom-Set.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#bigframe h1 {
+    font-size: 6em;
+    animation: sedef 3s ease-in-out;
+}
+
+@keyframes sedef {
+    from {
+        margin-top: 3em;
+
+    }
+
+    to {
+        margin-top: 0em;
+    }
+}
+
+
+
+#iconsets {
+    width: 99%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#iconsets h5 {
+    color: red;
+    margin-bottom: 0.5em;
+}
+
+#iconsets h3 {
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+#iconsets p {
+    opacity: 0.6;
+    margin-bottom: 0.5em;
+}
+
+#iconsets #icon {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+
+#iconsets #icon div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span img {
+    width: 100%;
+    height: 50%;
+}
+
+span a {
+    color: red;
+    text-decoration: none;
+}
+
+#bestseller {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bestseller .seller h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: -2em;
+}
+
+#bestseller #best {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#best div {
+    width: 60%;
+}
+
+#best div img {
+    width: 90%;
+}
+
+#best div a {
+    text-decoration: none;
+    color: black;
+}
+
+#best div a:hover {
+    opacity: 0.6;
+}
+
+#bestseller #best div img {
+    border-radius: 10px;
+}
+
+
+#promo {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+}
+
+#promo .prom h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: -2em;
+}
+
+#promo #prod {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#prod div {
+    width: 60%;
+}
+
+#prod div img {
+    width: 90%;
+}
+
+#prod div a {
+    text-decoration: none;
+    color: black;
+}
+
+#prod div a:hover {
+    opacity: 0.6;
+}
+
+#promo #prod div img {
+    border-radius: 10px;
+}
+
+#products {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+}
+
+#products .ducts h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: -2em;
+}
+
+#products #new {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#new div {
+    width: 60%;
+}
+
+#new div img {
+    width: 90%;
+}
+
+#new div a {
+    text-decoration: none;
+    color: black;
+}
+
+#new div a:hover {
+    opacity: 0.6;
+}
+
+#new div img {
+    border-radius: 10px;
+}

@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0em 3em;
+    padding-top: 1em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav #fl {
+    list-style: none;
+    font-weight: 700;
+    color: white;
+}
+
+nav #sl {
+    list-style: none;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+nav #sl a {
+    text-decoration: none;
+    color: white;
+    padding: 0em 0.5em;
+}
+
+#first {
+    width: 99%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+#first img {
+    width: 10%;
+    height: 10%;
+}
+
+#first ul {
+    display: flex;
+    list-style: none;
+    margin-top: 1.5em;
+}
+
+#first ul a {
+    text-decoration: none;
+    padding: 0em 0.3em;
+    color: black;
+    font-size: small;
+}
+
+#first ul a:hover {
+    color: red;
+}
+
+#bigframe {
+    width: 99%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10em;
+    padding-top: 3em;
+    color: white;
+    border: 1px solid;
+    background-color: white;
+    background: url(../Images/Mimoza-Bedroom-Set.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#bigframe h1 {
+    font-size: 6em;
+    animation: sedef 3s ease-in-out;
+}
+
+@keyframes sedef {
+    from {
+        margin-top: 3em;
+
+    }
+
+    to {
+        margin-top: 0em;
+    }
+}
+
+
+
+#iconsets {
+    width: 99%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#iconsets h5 {
+    color: red;
+    margin-bottom: 0.5em;
+}
+
+#iconsets h3 {
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+#iconsets p {
+    opacity: 0.6;
+    margin-bottom: 0.5em;
+}
+
+#iconsets #icon {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+
+#iconsets #icon div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span img {
+    width: 100%;
+    height: 50%;
+}
+
+span a {
+    color: red;
+    text-decoration: none;
+}
+
+#bestseller {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bestseller .seller h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: -2em;
+}
+
+#bestseller #best {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#best div {
+    width: 60%;
+}
+
+#best div img {
+    width: 90%;
+}
+
+#best div a {
+    text-decoration: none;
+    color: black;
+}
+
+#best div a:hover {
+    opacity: 0.6;
+}
+
+#bestseller #best div img {
+    border-radius: 10px;
+}
+
+
+#promo {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+}
+
+#promo .prom h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: -2em;
+}
+
+#promo #prod {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#prod div {
+    width: 60%;
+}
+
+#prod div img {
+    width: 90%;
+}
+
+#prod div a {
+    text-decoration: none;
+    color: black;
+}
+
+#prod div a:hover {
+    opacity: 0.6;
+}
+
+#promo #prod div img {
+    border-radius: 10px;
+}
+
+#products {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+}
+
+#products .ducts h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: -2em;
+}
+
+#products #new {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#new div {
+    width: 60%;
+}
+
+#new div img {
+    width: 90%;
+}
+
+#new div a {
+    text-decoration: none;
+    color: black;
+}
+
+#new div a:hover {
+    opacity: 0.6;
+}
+
+#new div img {
+    border-radius: 10px;
+}
+
+#bestsofa {
+    width: 99%;
+    display: flex;
+    padding: 0em 4em;
+    margin-top: 4em;
+}
+
+#sofa {
+    width: 40%;
+    margin-right: 13em;
+}
+
+#sofa h5 {
+    opacity: 0.6
+}
+
+#sofa h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#sofa p {
+    width: 99%;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+#sofa button {
+    padding: 1em 1.5em;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#sofa button a {
+    text-decoration: none;
+    color: white;
+}
+
+#sofa button:hover {
+    opacity: 0.6;
+}
+
+#att #gold {
+    width: 99%;
+    display: flex;
+    padding: 0em 4em;
+    margin-top: 4em;
+}
+
+.gold {
+    margin-left: -10em;
+}
+
+#gold .gold {
+    width: 40%;
+}
+
+.gold h5 {
+    opacity: 0.6;
+}
+
+.gold h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.gold p {
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+.gold button {
+    padding: 1em 1.5em;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.gold button a {
+    text-decoration: none;
+    color: white;
+}
+
+.gold button:hover {
+    opacity: 0.6;
+}
+
+#gold img {
+    margin-top: -2em;
+}
+
+#perfect {
+    width: 99%;
+    display: flex;
+    padding: 0em 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#dining {
+    width: 60%;
+}
+
+#dining h5 {
+    opacity: 0.6;
+}
+
+#dining h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#dining p {
+    width: 130%;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+#dining button {
+    padding: 1em 1.5em;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#dining button a {
+    text-decoration: none;
+    color: white;
+}
+
+#dining button:hover {
+    opacity: 0.6;
+}
+
+#buyers {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#buyers div {
+    width: 48%;
+    text-align: center;
+}
+
+#buyers div h5 {
+    color: red;
+}
+
+#buyers div h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#buyers p {
+    line-height: 25px;
+    margin-bottom: 1em;
+    opacity: 0.6;
+}
+
+#delivery {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+#delivery #set {
+    width: 80%;
+    display: flex;
+    text-align: center;
+}
+
+#delivery #set img {
+    margin-bottom: 0.5em;
+}
+
+#delivery #set h1 {
+    margin-bottom: 0.5em;
+}
+
+#delivery #set p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+#set .quality {
+    width: 60%;
+    margin-top: 1em;
+    padding: 0em 2em;
+}
+
+#stone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#stone #bed {
+    width: 68%;
+    display: flex;
+}
+
+#stone #bed img {
+    margin-top: 2em;
+    padding-right: 2em;
+}
+
+#stone #bed div p {
+    width: 130%;
+}
+
+#stone #bed div h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+#stone #bed div p {
+    margin-bottom: 1em;
+    line-height: 20px;
+    opacity: 0.6;
+}
+
+#newsletter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#newsletter h4 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#newsletter #email {
+    padding: 0.5em 1em;
+    width: 40%;
+    margin-bottom: 0.5em;
+}
+
+#newsletter #btn {
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    margin-left: 1em;
+}
+
+/** FOOTER**/
+footer {
+    background-color: whitesmoke;
+    margin-top: 4em;
+    padding-top: 2em;
+}
+
+footer #locations {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer #locations ul li {
+    list-style: none;
+}
+
+#locations #locate {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#locations #locate div {
+    width: 50%;
+}
+
+#locations #locate .customer {
+    width: 50%;
+    text-align: center;
+    margin-right: 3em;
+    margin-top: 5em;
+}
+
+#locations #locate .customer ul {
+    display: flex;
+}
+
+#locations #locate .customer ul li:nth-child(4) {
+    margin-left: -3em;
+}
+
+#locations #locate .abuja {
+    width: 70%;
+}
+
+#locations #locate .lagos {
+    width: 60%;
+}
+
+#locations #locate .porthacourt {
+    width: 150%;
+    margin-left: -5em;
+}
+
+#locations #locate li {
+    margin-bottom: 1em;
+}
+
+footer #canada {
+    width: 12%;
+    margin-left: 12em;
+    margin-bottom: 2em;
+}
+
+footer #canada ul {
+    list-style: none;
+}
+
+footer #copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer #copyright div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+
+footer #copyright div ul {
+    list-style: none;
+}
+
+
+/** 
